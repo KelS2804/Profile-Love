@@ -17,6 +17,10 @@ body{
     height: 100vh;
 }
 
+.main{
+    display: flex;
+}
+
 .card{
     width: 300px;
     height: 380px;
@@ -24,6 +28,7 @@ body{
     border-radius: 15px;
     text-align: center;
     overflow: hidden;
+    margin: 0 20px;
 }
 
 .card__img{
@@ -73,7 +78,7 @@ h2{
     color: var(--primary-color);
 }
 
-.card button{
+ button{
     padding: 10px 20px;
     border: solid 1px var(--primary-color);
     border-radius: 5px;
@@ -82,7 +87,7 @@ h2{
     transition: 0.5s;
 }
 
-.card button:hover{
+ button:hover{
     color: #242628;
     background-color: var(--primary-color);
 }
@@ -112,5 +117,16 @@ h2{
 }
 
 .modal button{
+    margin: 10px auto;
     color: black;
+}
+
+@media(max-width: 46.1875em){
+    .main{
+        display: block;
+    }
+
+    .card{
+        margin: 20px auto;
+    }
 }

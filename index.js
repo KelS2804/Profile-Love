@@ -1,7 +1,7 @@
 
 $('button').on('click', function(){
     $('.modal').show()
-    $('.modal-content').animate({opacity: 1, top: 300})
+    $('.modal-content').animate({opacity: 1, top: 200})
 })
 
 $('.ok').on('click', function(){
