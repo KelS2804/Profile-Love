@@ -105,11 +105,11 @@ h2{
     transform: translate(-50%, -50%);
     background-color: white;
     color: rgb(207, 42, 70);
-    width: 30%;
+    width: auto;
     height: auto;
     opacity: 0;
     border-radius: 10px;
-    padding: 20px;
+    padding: 10px;
 }
 
 .modal button{
@@ -117,3 +117,4 @@ h2{
     color: black;
     display: block;
 }
+

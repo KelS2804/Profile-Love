@@ -9,6 +9,6 @@ $('.ok').on('click', function(){
     $('.modal').hide()
 })
 
-$('.insta').on('click', function(){
-    alert("iii, Không có gì đâu :>>>")
+$('.camera').on('click', function(){
+    $('.modal-miss').show()
 })
