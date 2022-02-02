@@ -17,10 +17,6 @@ body{
     height: 100vh;
 }
 
-.main{
-    display: flex;
-}
-
 .card{
     width: 300px;
     height: 380px;
@@ -119,14 +115,4 @@ h2{
 .modal button{
     margin: 10px auto;
     color: black;
-}
-
-@media(max-width: 46.1875em){
-    .main{
-        display: block;
-    }
-
-    .card{
-        margin: 20px auto;
-    }
 }
