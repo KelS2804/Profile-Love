@@ -115,4 +115,5 @@ h2{
 .modal button{
     margin: 10px auto;
     color: black;
+    display: block;
 }
